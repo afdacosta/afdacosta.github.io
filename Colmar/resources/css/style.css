@@ -1,13 +1,75 @@
-/*--Nav Section--*/
-
-#logo img {
-	display: inline;
+* {
+	font-family: Verdana;
 }
 
-#name1 p {
-	display: inline;
+/* HEADER */
+
+header {
+	display: flex;
+	padding: 0px 24px;
+	align-items: center;
 }
 
-#name2 p {
-	display: inline;
+.logo {
+	height: 32px;
 }
+
+.name1 {
+	display: inline;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+}
+
+.name2 {
+	display: inline;
+	font-size: 18px;
+	color: gray;
+	text-align: left;
+}
+
+nav {
+  	margin-left: auto;
+}
+
+.nav {
+  	margin-left: auto;
+}
+
+.navlink {
+	list-style: none;
+	display: inline-block;
+	padding: 0 16px
+}
+
+/* BODY */
+
+
+/* FOOTER */
+footer {
+	display: flex;
+	padding: 0px 24px;
+	align-items: center;
+	color: gray;
+}
+
+.rights {
+	display: inline;
+	text-align: left;
+}
+
+.footer footer {
+	margin-left: auto;
+}
+
+.foot {
+	list-style: none;
+	display: inline-block;
+	padding: 0 16px
+}
+
+/*
+TEST AREA
+
+*/
